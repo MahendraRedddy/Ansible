@@ -1,5 +1,6 @@
-name: play1
- -name: print Hello
-   ansible.builtin.debug:
-   msg: "Hello"
+- name: play1
+  tasks:
+    - name: print Hello
+      ansible.builtin.debug:
+      msg: "Hello"
 
