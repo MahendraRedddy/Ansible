@@ -4,4 +4,8 @@
   - name: print Hello
     ansible.builtin.debug:
       msg: "Hello"
+  - name: print Word
+      ansible.builtin.debug:
+        msg: "Word"
+-  name: play2
 
