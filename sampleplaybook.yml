@@ -1,0 +1,9 @@
+name:play1
+ -name:print Hello
+   ansible.builtin.debug
+   msg:"Hello"
+ -name:print World
+   ansible.builtin.debug
+   msg:"World"
+
+name:play2
