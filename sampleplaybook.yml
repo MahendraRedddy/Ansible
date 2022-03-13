@@ -1,6 +1,6 @@
 - name: play1
   hosts: all
-  #tasks:
+  tasks:
   - name: print Hello
     ansible.builtin.debug:
       msg: "Hello"
