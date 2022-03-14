@@ -5,5 +5,5 @@
   tasks:
     - name: Acess URL in task1
       ansible.builtin.debug:
-        msg:URL in task1={{URL}}
+        msg:URL in task1= {{URL}}
       ##
