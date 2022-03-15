@@ -10,13 +10,13 @@
 #      ansible.builtin.debug:
 #        msg: URL in task2= {{URL}}
 -
-  - name: demo on variables
-    hosts: all
-       vars_files:
-           - sample_vars.yml
-    tasks:
-  - name: Acess URL
+- name: demo on variables
+  hosts: all
+  vars_files:
+      - sample_vars.yml
+  tasks:
+    - name: Acess URL
       ansible.builtin.debug:
-      msg: URL = {{URL}}
+        msg: URL = {{URL}}
 
 
