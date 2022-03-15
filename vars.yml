@@ -14,7 +14,6 @@
   ## create a varibales from file in another tab,
 
 - name: demo on variables
-    hosts:  all
     vars_file:
         - sample_vars.yml
     tasks:
