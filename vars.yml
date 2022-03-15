@@ -9,7 +9,7 @@
     - name: Acess URL in task2
       ansible.builtin.debug:
         msg: URL in task2= {{URL}}
--
+
 - name: demo on variables
   hosts: all
   vars_files:
