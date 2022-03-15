@@ -19,4 +19,13 @@
       ansible.builtin.debug:
         msg: URL = {{URL}}
 
+- name: demo on website
+  hosts:  all
+  vars_files:
+    - sample_varsfile.yml
+  tasks:
+    - name: Acess URL
+      ansible.builtin.debug:
+        msg:  URL ={{URL}}
+
 
