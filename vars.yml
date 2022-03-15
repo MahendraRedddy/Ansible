@@ -14,7 +14,8 @@
   ## create a varibales from file in another tab,
 
 - name: demo on variables
-    vars_file:
+    hosts: all
+    vars_files:
         - sample_vars.yml
     tasks:
       - name: Acess URL
